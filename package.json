@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-helloworld",
+  "version": "1.0.0",
+  "description": "A \"Hello, World!\" Heroku application made to showcase Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanfdunn/bootstrap-helloworld.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "heroku"
+  ],
+  "author": "Nathan F. Dunn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathanfdunn/bootstrap-helloworld/issues"
+  },
+  "homepage": "https://github.com/nathanfdunn/bootstrap-helloworld#readme"
+}

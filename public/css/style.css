@@ -1,0 +1,30 @@
+div.inner-div{
+	font-family: "Courier New";
+	min-height: 20px;
+	color: transparent;
+	cursor: pointer;
+}
+
+div.inner-div.show-text{
+	color: inherit;
+}
+
+div.inner-div.outline{
+	outline: 1px solid black;
+}
+
+div.bg-info.override-theme{
+	background-color: #00f;
+}
+div.bg-success.override-theme{
+	background-color: #0f0;
+}
+div.bg-danger.override-theme{
+	background-color: #f00;
+}
+div.bg-warning.override-theme{
+	background-color: #ff0;
+}
+div.bg-primary.override-theme{
+	background-color: #008;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Hello World</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script src="js/pageSetup.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container" id="form-container">
+      <div class="row">
+        <div class="col-xs-12">
+
+          <button id="btnBlankOut">Blank</button>
+          <button id="btnStore">Store</button>
+          <button id="btnRetrieve">Retrieve</button>
+          <input id="txtKey" type="text">
+          
+          <form action="" role="form">
+            <div class="checkbox">
+              <label for="chkGridLines">
+                <input id="chkGridLines" type="checkbox">
+                <span>Grid Lines</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="chkAmpColors">
+                <input id="chkAmpColors" type="checkbox">
+                <span>Amplify Colors</span>
+              </label>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Canvas will be inserted under this div -->
+    <div class="container-fluid" id="mainContainer"></div>
+
+  </body>
+</html>
